@@ -9,6 +9,66 @@ from typing import Any, Dict, List
 from pathlib import Path
 
 
+def load_raw_signals_for_prompt(
+    raw_signals_path: str,
+    max_signals: int = 60,
+    max_chars: int = 12000,
+) -> str:
+    """Load and compact raw signals into a prompt-friendly JSON string.
+
+    Azure AI Foundry agents cannot read local filesystem paths directly.
+    This tool converts the on-disk raw signals into a compact JSON payload
+    that can be embedded into an agent prompt.
+
+    Returns a JSON string.
+    """
+    try:
+        path = Path(raw_signals_path).expanduser().resolve()
+        data = json.loads(path.read_text(encoding="utf-8"))
+        signals = data.get("signals", []) if isinstance(data, dict) else []
+        if not isinstance(signals, list):
+            signals = []
+
+        compact: list[dict[str, Any]] = []
+        for item in signals[: max(0, int(max_signals))]:
+            if not isinstance(item, dict):
+                continue
+            metrics = item.get("metrics")
+            if not isinstance(metrics, dict):
+                metrics = {}
+            compact.append(
+                {
+                    "signal_id": item.get("signal_id"),
+                    "platform": item.get("platform"),
+                    "rank": item.get("rank"),
+                    "title": item.get("title"),
+                    "views": metrics.get("views"),
+                    "engagements": metrics.get("engagements"),
+                    "url": item.get("url"),
+                }
+            )
+
+        payload = {
+            "fetched_at": data.get("fetched_at") if isinstance(data, dict) else None,
+            "time_window_hours": data.get("time_window_hours") if isinstance(data, dict) else None,
+            "total_signals": len(signals),
+            "included_signals": len(compact),
+            "signals": compact,
+        }
+
+        text = json.dumps(payload, ensure_ascii=False, indent=2)
+        if max_chars is not None and len(text) > int(max_chars):
+            # Hard truncate to keep prompts small; keep it valid-ish JSON by slicing.
+            text = text[: int(max_chars)]
+        return text
+    except Exception as exc:
+        return json.dumps(
+            {"error": "failed_to_load_raw_signals", "details": str(exc), "raw_signals_path": raw_signals_path},
+            ensure_ascii=False,
+            indent=2,
+        )
+
+
 def ingest_signals(
     hot_api_list_path: str,
     output_dir: str,
@@ -385,6 +445,7 @@ def register_tools(registry: object) -> None:
         return
     
     register("social.ingest_signals", ingest_signals)
+    register("social.load_raw_signals_for_prompt", load_raw_signals_for_prompt)
     register("social.cluster_signals_fallback", cluster_signals_fallback)
     register("social.insight_analysis_fallback", insight_analysis_fallback)
     register("social.render_strategy_report_fallback", render_strategy_report_fallback)

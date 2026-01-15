@@ -174,7 +174,7 @@ elif [ "$MODE" = "azure" ]; then
         --non-interactive \
         --azure-ai \
         --azure-ai-model-deployment-name "$AZURE_AI_MODEL_DEPLOYMENT_NAME" \
-        --azure-ai-agent-id-map-json agent_id_map.json
+        --azure-ai-agent-id-map-json generated/social_insight_runner/agent_id_map.json
 else
     print_error "Unknown mode: $MODE. Use 'mock' or 'azure'"
     exit 1

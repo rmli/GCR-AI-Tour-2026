@@ -74,6 +74,29 @@ trigger:
     - kind: SendActivity
       id: phase2_start
       activity: "🔍 Phase 2: 正在进行热点聚类分析..."
+
+    # Azure AI Foundry agents cannot access local files. Load raw signals into prompt text.
+    - kind: SetTextVariable
+      id: prepare_raw_signals_for_prompt
+      variable: Local.LoadRawSignalsForPrompt
+      value: |-
+        {
+          "tool": "social.load_raw_signals_for_prompt",
+          "args": {
+            "raw_signals_path": "{Local.OutputDir}/raw_signals.json",
+            "max_signals": 60,
+            "max_chars": 12000
+          }
+        }
+
+    - kind: InvokeAzureAgent
+      id: call_load_raw_signals_for_prompt
+      agent:
+        name: LocalToolExecutorAgent
+      input:
+        messages: =UserMessage(Local.LoadRawSignalsForPrompt)
+      output:
+        responseObject: Local.RawSignalsForPromptText
     
     - kind: SetTextVariable
       id: prepare_clustering_prompt
@@ -84,6 +107,9 @@ trigger:
         你需要分析原始信号数据，将相似的信号聚合为核心热点。
         
         **输入数据路径**: {Local.OutputDir}/raw_signals.json
+
+        **原始信号数据（节选，JSON）**:
+        {Local.RawSignalsForPromptText}
         
         **要求**:
         1. 判断哪些信号实际上在讨论同一个话题或事件
