@@ -35,6 +35,7 @@ network:
     - "www.infoq.com"
     - "lobste.rs"
     - "dev.to"
+    - "www.ruanyifeng.com"
 safe-outputs:
   create-pull-request:
     title-prefix: "[tech-insight] "

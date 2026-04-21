@@ -168,5 +168,13 @@
     "source": "rss",
     "url": "https://dev.to/feed",
     "signal_level": "B"
+  },
+  {
+    "id": 21,
+    "name": "阮一峰的网络日志",
+    "platform": "ruanyifeng",
+    "source": "rss",
+    "url": "https://www.ruanyifeng.com/blog/atom.xml",
+    "signal_level": "B"
   }
 ]
