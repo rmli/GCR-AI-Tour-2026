@@ -2,6 +2,7 @@
 name: Tech Insight Workflow
 on:
   workflow_dispatch:
+  schedule: daily around 9am utc+8
 strict: false
 permissions:
   contents: read
