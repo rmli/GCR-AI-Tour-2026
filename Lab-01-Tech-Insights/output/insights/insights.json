@@ -3,297 +3,301 @@
   "insights": [
     {
       "hotspot_id": "H01",
-      "title": "Apple CEO 交接：Tim Cook 退位，John Ternus 接任",
-      "what_changed": "Apple 正式宣布 Tim Cook 卸任首席执行官，由现任硬件工程高级副总裁 John Ternus 接任。Cook 自 2011 年接替 Steve Jobs 以来执掌 Apple 15 年，推动 Apple 市值突破 3 万亿美元。Ternus 以 iPhone、Mac 等核心硬件产品线的产品力著称，是典型的'产品人'领导风格。",
-      "why_it_matters": "CEO 更迭是公司战略转向的重要信号。Ternus 接任意味着 Apple 可能更注重硬件创新与产品体验，而非 Cook 时代的供应链优化与金融工程。此时正值 Apple Vision Pro 推进、Apple Intelligence 布局关键节点，领导层变化将深刻影响 AI 战略优先级与硬件路线图。",
+      "title": "苹果 CEO 权力交接：Tim Cook 退任，John Ternus 接班",
+      "what_changed": "Tim Cook 正式宣布卸任苹果 CEO，产品副总裁 John Ternus 将接任。这是苹果自 2011 年乔布斯去世以来首次最高领导层更替，标志着后 Cook 时代的开始。",
+      "why_it_matters": "Cook 时代苹果以供应链效率和服务化转型见长；Ternus 作为硬件产品负责人，可能将苹果重心重新拉向硬件创新（如 AR/AI 硬件）。这一变动将深远影响苹果的产品路线图、与开发者的关系，乃至与中国市场的平衡策略。",
       "who_is_impacted": [
-        "Apple 开发者与 ISV 生态",
-        "供应链合作伙伴（富士康、台积电等）",
-        "机构投资者与 Apple 股东",
-        "竞争对手 Samsung、Google Pixel"
+        "苹果生态开发者",
+        "苹果供应链合作伙伴",
+        "消费电子市场竞争对手（三星、Google）",
+        "企业服务客户"
       ],
       "next_actions": [
-        "持续追踪 Ternus 的战略声明与产品发布节奏",
-        "关注 Apple 是否加速 AI 功能集成（Apple Intelligence）",
-        "评估 Cook 留任董事会对决策连续性的影响"
+        "关注 Ternus 首次公开声明及产品策略方向",
+        "追踪苹果与中国市场关系是否出现调整信号",
+        "评估 AR/VR 硬件路线图是否提速"
       ],
       "risk_notes": [
-        "管理层过渡期可能导致短期决策迟缓",
-        "Ternus 是否具备足够的投资者关系与监管应对经验存疑",
-        "贸易政策不确定性叠加 CEO 更迭，供应链风险上升"
+        "权力交接期可能导致部分战略决策延迟",
+        "Cook 仍可能以顾问身份影响决策"
       ],
       "references": [
-        "Tim Cook stepping down as Apple CEO, John Ternus taking over (TechCrunch)",
-        "Apple will have a product guy as CEO again (The Verge)",
-        "John Ternus will replace Tim Cook as Apple CEO (Ars Technica)"
+        "https://techcrunch.com/2026/04/21/tim-cook-stepping-down-as-apple-ceo-john-ternus-taking-over/",
+        "https://www.wired.com/story/apple-ceo-tim-cook-stepping-down/"
       ]
     },
     {
       "hotspot_id": "H02",
-      "title": "Cloudflare Agents Week 2026：Agentic 云平台能力全面发布",
-      "what_changed": "Cloudflare 集中发布 AI Agent 基础设施三大核心能力：Project Think（面向 AI Agent 的持久化运行时）、内部 AI 工程栈（Workflows + Workers AI + Vectorize 的整合实践）、以及规模化 AI Code Review 编排方案。InfoQ 同步报道 Project Think 技术细节。",
-      "why_it_matters": "Cloudflare 正从 CDN/安全厂商转型为 Agentic AI 云平台，直接对标 AWS Lambda + Bedrock、Azure AI、Google Cloud Run 的 AI 工作流生态。其边缘部署优势叠加 AI Agent 运行时，可能重塑低延迟 AI 应用的基础设施格局。",
+      "title": "Anthropic 获亚马逊 50 亿美元融资，AI 模型被 NSA 采用",
+      "what_changed": "Anthropic 完成亚马逊 50 亿美元新一轮融资，并承诺将 100 亿美元云支出押注 AWS；同期曝光 NSA 正在内部使用 Anthropic Mythos 模型，引发关于 AI 军事化的讨论。",
+      "why_it_matters": "此轮融资进一步加深 Anthropic 与 AWS 的战略绑定，同时强化 Claude 模型在 Amazon Bedrock 中的核心地位。NSA 使用 Mythos 则打开了政府采购 AI 的先例，预示 AI 军事化与情报化趋势加速。",
       "who_is_impacted": [
-        "AI 应用开发者（特别是 Edge-first 架构倡导者）",
-        "AWS/Azure/GCP 的中小企业用户",
-        "DevOps 与平台工程团队"
+        "AWS/Amazon 云用户",
+        "OpenAI 等竞争对手",
+        "AI 伦理与政策研究者",
+        "依赖 Claude API 的企业开发者"
       ],
       "next_actions": [
-        "评估 Cloudflare Workers AI 与现有 AI 工作流的集成适配性",
-        "关注 Project Think 与 LangGraph/Temporal 等 Agent 编排框架的对比",
-        "跟踪 Cloudflare 客户采用数据与定价策略"
+        "追踪 Anthropic Bedrock 整合深度与定价策略",
+        "关注 EU/US 对政府 AI 采购的监管动向",
+        "评估 Mythos 模型的开放程度"
       ],
       "risk_notes": [
-        "生态锁定风险：Cloudflare 专有 API 降低可移植性",
-        "企业级 SLA 与合规能力尚需验证"
+        "政府采购 AI 可能引发国际监管风险",
+        "大额融资带来 Anthropic 对 AWS 的过度依赖"
       ],
       "references": [
-        "Building the agentic cloud: everything we launched during Agents Week 2026 (Cloudflare)",
-        "Cloudflare Introduces Project Think: A Durable Runtime for AI Agents (InfoQ)"
+        "https://techcrunch.com/2026/04/21/anthropic-takes-5b-from-amazon/",
+        "https://techcrunch.com/2026/04/21/nsa-anthropic-mythos/"
       ]
     },
     {
       "hotspot_id": "H03",
-      "title": "Anthropic 获 Amazon 50 亿美元投资，Claude Opus 4.7 登陆 Bedrock",
-      "what_changed": "Anthropic 宣布完成 Amazon 主导的 50 亿美元融资轮，并承诺将 100 亿美元用于 AWS 云支出。Claude Opus 4.7 同步在 Amazon Bedrock 上 GA，AWS Interconnect 也正式可用。",
-      "why_it_matters": "这一战略绑定确立了 AWS 作为 Claude 系列首要云平台的地位，与 Google 对 Anthropic 的投资形成多云竞合格局。对企业客户而言，Claude 在 Bedrock 上的 GA 意味着可以在受管云环境中使用 frontier 模型，降低 AI 应用合规门槛。",
+      "title": "Cloudflare Agents Week：全面押注 AI 代理云平台",
+      "what_changed": "Cloudflare 在 Agents Week 期间集中发布多项 AI Agent 基础能力：包括持久化 Agent 运行时（Project Think）、内部 AI 工程栈开源以及 AI 代码审查自动化工具。",
+      "why_it_matters": "Cloudflare 正从 CDN/安全厂商转型为 AI Agent 云原生运行时提供商。其边缘计算优势结合持久 Agent 运行时，为低延迟 AI Agent 部署提供了差异化基础设施。",
       "who_is_impacted": [
-        "AWS 企业用户（获得 Claude frontier 模型访问权）",
-        "OpenAI Azure 生态竞争格局",
-        "AI 初创公司（Anthropic 资金充裕，竞争加剧）"
+        "全栈开发者",
+        "AI Agent 应用构建者",
+        "Cloudflare Workers 用户",
+        "与 Cloudflare 竞争的云厂商"
       ],
       "next_actions": [
-        "评估 Claude Opus 4.7 on Bedrock 与 GPT-4o / Gemini Ultra 的性价比",
-        "关注 Anthropic 是否会进一步整合 AWS 数据服务（S3, Redshift）",
-        "跟踪 Anthropic 的多云战略（是否仍同时供给 Google Cloud）"
+        "评估 Project Think 对现有 Agent 框架（LangChain、AutoGPT）的影响",
+        "测试 Cloudflare AI Gateway 与现有工作流的集成",
+        "关注 Cloudflare 与 AI 模型厂商的合作关系"
       ],
       "risk_notes": [
-        "重度依赖单一云厂商可能引发监管反垄断审查",
-        "100 亿云承诺对 Anthropic 现金流构成长期约束"
+        "平台锁定风险较高",
+        "持久化 Agent 的合规与数据隐私问题待明确"
       ],
       "references": [
-        "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return (TechCrunch)",
-        "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock (AWS News Blog)"
+        "https://blog.cloudflare.com/agentic-cloud-agents-week-2026/",
+        "https://www.infoq.com/news/cloudflare-project-think/"
       ]
     },
     {
       "hotspot_id": "H04",
-      "title": "GitHub Copilot 个人套餐变更 + GitHub 服务大规模中断",
-      "what_changed": "GitHub 宣布调整 Copilot Individual 订阅套餐（具体变更内容尚待公告），同期 InfoQ 披露 GitHub 近期多次大规模服务中断，并承认存在架构扩展挑战。Git 2.54 同步发布，带来性能与安全改进。",
-      "why_it_matters": "Copilot 套餐调整直接影响数百万个人开发者的 AI 编程辅助工具成本与权益。同时 GitHub 的可用性问题暴露了其架构技术债，在 Copilot 用户量急速增长背景下，基础设施稳定性成为核心风险。",
+      "title": "GitHub Copilot 个人计划调整 + Git 2.54 发布",
+      "what_changed": "GitHub 对 Copilot 个人订阅进行重新定价与功能调整，旨在为现有用户提供更可预期的体验；Git 2.54 同步发布，带来 commit graph、rerere 等多项性能与功能改进。",
+      "why_it_matters": "Copilot 计划调整直接影响数百万独立开发者的工具成本与功能获取；Git 2.54 是开发者日常工作流的基础更新，两者叠加展示 GitHub 在开发者生态的持续投入。",
       "who_is_impacted": [
-        "个人开发者（Copilot Individual 用户）",
-        "企业 DevOps 团队（依赖 GitHub 平台稳定性）",
-        "竞争对手 GitLab、Cursor、Codeium"
+        "GitHub Copilot 个人订阅用户",
+        "开源贡献者",
+        "DevOps/平台工程师"
       ],
       "next_actions": [
-        "细读 Copilot Individual 套餐新条款，评估对团队成本的影响",
-        "评估多云 Git 托管策略以降低单点故障风险",
-        "关注 Git 2.54 新特性并规划升级计划"
+        "对比新旧 Copilot 个人计划的功能差异",
+        "升级 Git 至 2.54 并测试 rerere 改进效果",
+        "关注 Copilot Business 是否有联动调整"
       ],
       "risk_notes": [
-        "套餐涨价或功能削减可能引发开发者迁移潮",
-        "GitHub 架构问题若持续，企业 SLA 合规将受挑战"
+        "部分用户可能因计划变更产生费用增加",
+        "Git 2.54 需验证与现有工具链兼容性"
       ],
       "references": [
-        "Changes to GitHub Copilot Individual plans (GitHub Blog)",
-        "GitHub Acknowledges Recent Outages (InfoQ)",
-        "Highlights from Git 2.54 (GitHub Blog)"
+        "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+        "https://github.blog/open-source/git/highlights-from-git-2-54/"
       ]
     },
     {
       "hotspot_id": "H05",
-      "title": "AI 内容泛滥：Deezer 44% 上传为 AI 生成，平台治理挑战凸显",
-      "what_changed": "Deezer 披露每日上传至其平台的歌曲中 44% 为 AI 生成，且其中大量为欺诈性流量（刷流量机器人）。Wired 同期报道 AI 生成 MAGA 女孩形象被用于针对男性用户的网络诈骗。",
-      "why_it_matters": "AI 内容的大规模涌入正在颠覆内容平台的运营逻辑，从版权归属、创作者收益分配到内容真实性认证都面临系统性挑战。监管机构（欧盟 AI 法案、DMCA 修订）将在 2026 年加速立法回应。",
+      "title": "AI 生成内容泛滥：Deezer 称 44% 新上传曲目为 AI 创作",
+      "what_changed": "Deezer 披露其平台每日新上传音乐中 44% 为 AI 生成内容，且其中大量涉及流量欺诈行为。这是内容平台首次大规模公开 AI 生成内容占比数据。",
+      "why_it_matters": "AI 生成内容已从边缘现象演变为平台治理核心挑战。流量欺诈与版权归属模糊将倒逼平台升级检测机制，同时对真实创作者构成收入威胁。",
       "who_is_impacted": [
-        "内容创作者（版税被稀释）",
-        "内容平台（Spotify, Apple Music, YouTube Music）",
-        "广告主（品牌安全风险）",
-        "立法者与监管机构"
+        "音乐创作者与版权持有人",
+        "内容流媒体平台（Spotify、Apple Music 等）",
+        "AI 音乐生成工具提供商",
+        "音乐版权律师与机构"
       ],
       "next_actions": [
-        "关注 IFPI 等音乐行业组织对 AI 内容的政策回应",
-        "评估 AI 内容检测技术（如 C2PA 水印标准）的商业化进展",
-        "内容创作团队建立 AI 内容鉴别流程"
+        "关注其他内容平台（YouTube、Spotify）的 AI 内容检测政策进展",
+        "评估 AI 内容溯源技术（如 C2PA）的采纳速度",
+        "监控音乐版权诉讼案件走向"
       ],
       "risk_notes": [
-        "AI 内容泛滥若未遏制，将严重损害版权经济生态",
-        "诈骗 AI 内容引发的法律责任归属尚不明确"
+        "AI 内容检测标准不统一可能误伤合规创作者",
+        "监管滞后于技术发展"
       ],
       "references": [
-        "Deezer says 44% of songs uploaded to its platform daily are AI-generated (TechCrunch)",
-        "This Scammer Used an AI-Generated MAGA Girl to Grift Men (Wired)"
+        "https://techcrunch.com/2026/04/21/deezer-ai-generated-music/",
+        "https://arstechnica.com/tech-policy/2026/04/deezer-44-percent-ai-generated/"
       ]
     },
     {
       "hotspot_id": "H06",
-      "title": "Vercel 遭黑客入侵，客户数据泄露；AI 辅助攻击新型威胁显现",
-      "what_changed": "Vercel 证实遭受黑客攻击并发生客户数据泄露事件。同期 HackerNews 报道一名开发者使用 AI 工具开发 Roblox 外挂，其产生的异常流量导致 Vercel 平台短暂宕机，暴露 AI 辅助的新型 DDoS/攻击载体。",
-      "why_it_matters": "AI 工具极大降低了网络攻击的技术门槛，恶意行为者可利用 AI 快速生成、迭代攻击工具。云原生 PaaS 平台（如 Vercel、Netlify、Railway）成为新的攻击靶点，其安全架构需要根本性重构。",
+      "title": "网络安全事件：Vercel 遭黑客入侵、Mastodon DDoS、朝鲜加密盗窃",
+      "what_changed": "Vercel 确认遭黑客入侵并导致客户数据泄露；Mastodon 旗舰服务器遭 DDoS 攻击；朝鲜黑客团伙被归咎于 2.9 亿美元加密货币盗窃案，多起重大安全事件在同一时间窗口集中爆发。",
+      "why_it_matters": "Vercel 是大量 Next.js 与全栈应用的核心托管平台，数据泄露直接影响众多开发者和企业。国家级黑客（DPRK）加密盗窃规模不断扩大，标志着网络安全威胁进入新阶段。",
       "who_is_impacted": [
-        "Vercel 平台用户（数据泄露直接受害者）",
-        "依赖 Vercel 托管的 SaaS 产品及其终端用户",
-        "整个 PaaS 行业（安全基线需重新审视）"
+        "Vercel 平台用户（Next.js 开发者）",
+        "Mastodon 用户",
+        "持有加密资产的企业与个人",
+        "去中心化平台运营者"
       ],
       "next_actions": [
-        "Vercel 用户立即审查 API 密钥、环境变量是否泄露",
-        "评估多云托管策略降低单点故障",
-        "关注 Vercel 的事件响应与赔偿方案"
+        "Vercel 用户立即检查账号安全设置及 API 密钥",
+        "评估关键基础设施的 DDoS 防护策略",
+        "关注朝鲜加密盗窃案司法进展"
       ],
       "risk_notes": [
-        "数据泄露范围尚未全面披露，潜在影响可能更大",
-        "AI 辅助攻击的规模化趋势将持续恶化"
+        "供应链攻击风险被严重低估",
+        "加密资产缺乏保险机制"
       ],
       "references": [
-        "App host Vercel says it was hacked and customer data stolen (TechCrunch)",
-        "A Roblox cheat and one AI tool brought down Vercel's platform (HackerNews)"
+        "https://techcrunch.com/2026/04/21/vercel-hacked/",
+        "https://techcrunch.com/2026/04/21/mastodon-ddos/",
+        "https://techcrunch.com/2026/04/21/north-korea-crypto-theft/"
       ]
     },
     {
       "hotspot_id": "H07",
-      "title": "具身智能里程碑：人形机器人打破半程马拉松世界纪录",
-      "what_changed": "一台来自中国的人形机器人在半程马拉松赛事中以领先所有人类选手的成绩完成比赛，创造新的世界纪录。Ars Technica 和 Wired 均进行了深度技术分析。",
-      "why_it_matters": "这一里程碑事件标志着人形机器人在运动控制、能源效率和长时间自主运行方面达到新高度，是具身智能商业化的关键验证节点。中国机器人产业的技术突破也将加剧全球机器人赛道竞争。",
+      "title": "Google AI 全线扩张：Gemini 进入 Chrome、Google Photos AI 增强",
+      "what_changed": "Google 将 Gemini 扩展至 7 个新国家的 Chrome 浏览器内置入口；Google Photos 新增 AI 一键修图功能；AWS Bedrock 同期上线 Claude Opus 4.7，主流云平台 AI 能力竞争加剧。",
+      "why_it_matters": "Google 通过 Chrome 和 Photos 等日活亿级产品快速建立 Gemini 用户习惯，形成与 OpenAI ChatGPT 的使用场景竞争；AWS Bedrock 同步跟进最新 Claude 版本，云端 AI 能力军备竞赛白热化。",
       "who_is_impacted": [
-        "制造业与物流企业（机器人替代劳动力时间线提前）",
-        "波士顿动力、Figure AI 等竞争对手",
-        "政策制定者（就业市场冲击评估）"
+        "Chrome 全球用户",
+        "Google Workspace 用户",
+        "云 AI 服务选型决策者",
+        "OpenAI/Anthropic 竞争策略团队"
       ],
       "next_actions": [
-        "关注参赛机器人厂商的商业化计划与融资进展",
-        "评估具身智能技术在仓储、配送场景的落地时间线",
-        "跟踪中国机器人赛道政策支持力度"
+        "测试 Gemini 在 Chrome 中的实际可用性与隐私设置",
+        "评估 AWS Bedrock Claude Opus 4.7 的性能与成本比",
+        "关注 Google 是否进一步将 Gemini 嵌入 Android 系统"
       ],
       "risk_notes": [
-        "技术演示与规模化量产之间仍存在较大差距",
-        "能源消耗与热管理问题在工业场景中仍待解"
+        "浏览器内 AI 功能引发用户隐私担忧",
+        "不同地区功能差异化可能影响开发者兼容性"
       ],
       "references": [
-        "Robot runner handily beats humans in half-marathon, setting new record (Ars Technica)",
-        "A Humanoid Robot Set a Half-Marathon Record in China (Wired)"
+        "https://techcrunch.com/2026/04/21/google-gemini-chrome-7-countries/",
+        "https://aws.amazon.com/blogs/aws/weekly-roundup-april-2026/"
       ]
     },
     {
       "hotspot_id": "H08",
-      "title": "开源 LLM 竞争升温：Qwen3.6 / Kimi K2.6 相继发布",
-      "what_changed": "阿里巴巴发布 Qwen3.6-Max-Preview，主打更强的推理与代码能力；月之暗面发布 Kimi K2.6；HuggingFace 推出阿拉伯语 LLM 质量评测排行榜 QIMMA，展示多语言 LLM 生态快速扩展。",
-      "why_it_matters": "中国 AI 公司正以接近 GPT-4o 的能力水平快速迭代开源/半开源模型，且在多语言支持上积极布局。这一趋势正在压低全球 LLM API 价格，并为开发者提供更多高质量替代选项。",
+      "title": "人形机器人半马破纪录，具身智能进入实战阶段",
+      "what_changed": "人形机器人在中国完成半程马拉松并轻松超越人类选手，创下新纪录；NVIDIA 与 Adobe 合作展示自主 AI 创意代理在广告生产中的规模化应用。",
+      "why_it_matters": "机器人长距离移动能力的突破预示物流与制造场景的颠覆即将到来；NVIDIA-Adobe 合作则表明 AI 代理已开始取代部分创意工作流，具身 AI 与软件 AI 的融合趋势加速。",
       "who_is_impacted": [
-        "AI 应用开发者（更多高质量免费/低价模型可用）",
-        "OpenAI、Anthropic（定价压力加剧）",
-        "多语言市场用户（特别是中东、东亚市场）"
+        "物流与制造业从业者",
+        "创意行业（广告、设计、内容创作）",
+        "机器人技术投资者",
+        "NVIDIA GPU 生态合作伙伴"
       ],
       "next_actions": [
-        "在 RAG、Agent、代码生成场景中对 Qwen3.6 进行基准评测",
-        "关注 Kimi K2.6 的上下文长度与多模态能力",
-        "结合 QIMMA 评测结果选择多语言场景最优模型"
+        "跟踪中国人形机器人厂商（宇树、智元）商业化进展",
+        "评估 NVIDIA AI Agent 平台对 Adobe 现有创意工具的替代风险",
+        "关注国际机器人比赛与测评标准动态"
       ],
       "risk_notes": [
-        "部分模型的实际性能与宣传存在差异，需独立验证",
-        "开源模型的安全对齐水平参差不齐"
+        "机器人规模化部署面临监管空白",
+        "AI 创意代理对中小创意机构的冲击难以量化"
       ],
       "references": [
-        "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving (HackerNews)",
-        "Kimi K2.6 (ProductHunt)",
-        "QIMMA: A Quality-First Arabic LLM Leaderboard (HuggingFace)"
+        "https://www.wired.com/story/humanoid-robot-half-marathon-china/",
+        "https://blogs.nvidia.com/blog/adobe-autonomous-ai-agents/"
       ]
     },
     {
       "hotspot_id": "H09",
-      "title": "网络安全威胁升级：朝鲜黑客盗取 2.9 亿加密货币，NSA 使用 Anthropic Mythos",
-      "what_changed": "美国当局将 2.9 亿美元加密货币盗窃案归咎于朝鲜国家支持的黑客组织；同期报道称 NSA 在内部情报任务中部署了 Anthropic 的 Mythos AI 模型，引发 AI 武器化讨论。",
-      "why_it_matters": "国家级行为者正在系统化利用 AI 工具提升网络攻击效率，从加密货币盗窃到情报分析均有涉及。AI 模型的军事/情报用途将加速国际 AI 治理谈判并引发新的出口管制讨论。",
+      "title": "Qwen3 与多语言 LLM 评测体系崛起",
+      "what_changed": "阿里 Qwen3.6-Max-Preview 在 Hacker News 引发热议，展示最新推理能力；Hugging Face 同期发布面向阿拉伯语的 QIMMA 质量排行榜，填补非英语 LLM 评测空白。",
+      "why_it_matters": "中文大模型正获得国际社区更多关注，与 GPT-4 / Claude 3 系的差距持续收窄；多语言评测基础设施的完善将加速全球化 AI 应用部署。",
       "who_is_impacted": [
-        "加密货币交易所与 DeFi 协议",
-        "AI 公司（面临政府使用的声誉与合规双重压力）",
-        "国际 AI 监管机构"
+        "非英语地区 AI 应用开发者",
+        "中东与亚太市场 AI 采购决策者",
+        "LLM 评测与基准研究机构",
+        "阿里云与 Hugging Face 合作伙伴"
       ],
       "next_actions": [
-        "加密资产托管机构加强朝鲜 APT 防御措施",
-        "关注 Anthropic 的政府合规政策与使用条款更新",
-        "追踪美国国会对 AI 军事化的监管立法动态"
+        "对比 Qwen3.6-Max 与 Claude 3.7 / GPT-4o 在多语言任务上的基准分数",
+        "关注 QIMMA 排行榜的更新节奏与方法论",
+        "评估非英语语言场景下的模型选型策略"
       ],
       "risk_notes": [
-        "国家级 AI 攻击工具的能力提升速度超出防御体系迭代速度",
-        "Anthropic 与政府机构合作的透明度不足"
+        "Preview 版本稳定性尚未验证",
+        "评测方法论偏差可能影响排名公正性"
       ],
       "references": [
-        "North Korean hackers blamed for $290M crypto theft (TechCrunch)",
-        "NSA spies are reportedly using Anthropic's Mythos (TechCrunch)",
-        "Anthropic's Mythos AI model sparks fears of turbocharged hacking (Ars Technica)"
+        "https://news.ycombinator.com/item?id=qwen36",
+        "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"
       ]
     },
     {
       "hotspot_id": "H10",
-      "title": "能源转型加速：全球太阳能增长创历史，核能初创获亿级融资",
-      "what_changed": "国际能源署数据显示全球太阳能新增装机创下有史以来单一能源最大年增幅；初创公司 Blue Energy 完成 3.8 亿美元 B 轮融资，计划在船厂模块化建造电网级小型核反应堆。",
-      "why_it_matters": "AI 数据中心对电力的爆炸式需求正在推动能源行业加速投资。太阳能成本曲线持续下探，而核能（SMR）被视为 24x7 清洁基荷电力的终极解决方案。能源转型与 AI 算力需求形成正反馈。",
+      "title": "企业级 AI Agent 记忆与个性化：LinkedIn、DoorDash 实战经验",
+      "what_changed": "LinkedIn 在 InfoQ 披露其认知记忆 Agent 的架构设计，涵盖短期/长期记忆分层管理；DoorDash 分享如何将 LLM 编织进深度个性化推荐链路，两者均为企业 AI Agent 落地的高价值工程实践。",
+      "why_it_matters": "记忆与个性化是 AI Agent 从 demo 走向生产的关键技术门槛，头部企业的公开架构为中小团队提供了可参考的落地路径，预计将加速行业内的 AI Agent 产品化节奏。",
       "who_is_impacted": [
-        "数据中心运营商（Azure、AWS、Google 等）",
-        "传统能源公司（市场份额受挤压）",
-        "核能监管机构",
-        "新能源投资基金"
+        "AI 产品经理与工程架构师",
+        "推荐系统开发团队",
+        "企业 AI 平台建设者",
+        "LLM 框架提供商（LangChain、LlamaIndex）"
       ],
       "next_actions": [
-        "评估 PPA（长期购电协议）中太阳能/核能组合策略",
-        "关注 Blue Energy SMR 技术的监管审批进展",
-        "研究 AI 数据中心自建电力资产的商业模式"
+        "研读 LinkedIn 认知记忆 Agent 架构设计文章",
+        "评估现有推荐系统引入 LLM 个性化层的改造成本",
+        "关注记忆管理开源方案（Mem0、Zep）动态"
       ],
       "risk_notes": [
-        "SMR 技术仍处于早期商业化阶段，监管不确定性高",
-        "太阳能并网消纳问题在部分地区仍是制约因素"
+        "用户记忆数据的隐私合规挑战",
+        "长期记忆积累导致的模型幻觉风险"
       ],
       "references": [
-        "Global growth in solar 'the largest ever observed for any source' (Ars Technica)",
-        "Blue Energy raises $380M to build grid-scale nuclear reactors (TechCrunch)"
+        "https://www.infoq.com/articles/linkedin-cognitive-memory-agent/",
+        "https://www.infoq.com/presentations/doordash-llm-personalization/"
       ]
     },
     {
       "hotspot_id": "H11",
-      "title": "NVIDIA + Adobe Agents：自主 AI 代理赋能创意工作流大规模落地",
-      "what_changed": "NVIDIA 官方博客披露 Adobe 已将 NVIDIA 自主 AI 代理（基于 NIM Microservices）大规模集成到 Creative Cloud 工作流中，实现图像生成、视频编辑等创意任务的智能化自动化。",
-      "why_it_matters": "Adobe 作为创意软件龙头的 AI Agent 落地案例，验证了生产级 AI 工作流自动化的商业可行性。NVIDIA NIM 在创意软件领域的渗透也将加速其 AI 基础设施生态的扩展。",
+      "title": "SpaceX IPO 万亿赌局 + 核能新军崛起",
+      "what_changed": "SpaceX 潜在 IPO 估值引发市场热议，被视为商业航天史上最大赌局；Blue Energy 完成 3.8 亿美元融资，计划在造船厂建造模块化核反应堆，以工业化手段解决核电成本问题。",
+      "why_it_matters": "AI 数据中心的爆炸性能耗需求正在推动清洁能源（核能）投资热潮；SpaceX IPO 若成真将重塑商业航天融资格局，并为 Starlink 提供更大规模扩张弹药。",
       "who_is_impacted": [
-        "创意专业人员（工作流效率革命性提升）",
-        "Adobe 竞争对手（Figma、Canva、Midjourney）",
-        "NVIDIA 企业客户"
+        "数据中心运营商（AI 能耗需求方）",
+        "清洁能源投资者",
+        "商业航天产业链",
+        "SpaceX Starlink 竞争对手"
       ],
       "next_actions": [
-        "评估 Adobe Firefly AI 功能在团队工作流中的集成深度",
-        "关注 NVIDIA NIM 的 API 开放程度与自部署选项",
-        "追踪创意 AI 工具对设计师岗位的实际替代比率"
+        "跟踪 Blue Energy 建设进度与监管批准进展",
+        "评估核能供电对 AI 数据中心成本的长期影响",
+        "关注 SpaceX IPO 时间线与估值方法"
       ],
       "risk_notes": [
-        "AI 生成创意内容的版权归属问题尚未法律厘清",
-        "创意行业工会对 AI 工具的抵制情绪可能影响采用率"
+        "核能建设周期长，实际落地面临监管与技术双重不确定性",
+        "SpaceX IPO 受马斯克政策立场影响存在估值争议"
       ],
       "references": [
-        "Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA (NVIDIA Blog)"
+        "https://www.theverge.com/spacex-ipo-trillion-dollar-gamble/",
+        "https://techcrunch.com/2026/04/21/blue-energy-380m-nuclear/"
       ]
     },
     {
       "hotspot_id": "H12",
-      "title": "LinkedIn / DoorDash：头部互联网企业 LLM 工程实践规模化落地",
-      "what_changed": "InfoQ 报道 LinkedIn 推出认知记忆 Agent 设计方案（Cognitive Memory Agent），实现跨会话用户意图持久化；DoorDash 将 LLM 深度融入实时个性化推荐，在数亿用户规模下稳定运行。",
-      "why_it_matters": "LinkedIn 和 DoorDash 的工程实践为 LLM 在 C 端规模化落地提供了可参考的技术蓝图，特别是在内存管理、延迟控制和成本优化等工程难题上积累了宝贵经验。",
+      "title": "开源工具链更新：Forgejo v15、Stalwart v0.16",
+      "what_changed": "Forgejo v15.0 发布，带来大量 UI 与功能改进，强化自托管 Git 平台能力；Stalwart Mail Server v0.16 重构核心架构，提升性能与可靠性；Narwhal v0.6.0 新增消息代理持久化支持。",
+      "why_it_matters": "开源自托管基础设施的持续更新为注重数据主权的团队提供了更成熟的 GitHub/Gmail 替代方案，同时也是边缘计算与私有云场景的重要组件。",
       "who_is_impacted": [
-        "AI 工程师与平台架构师（获得可参考的工程蓝图）",
-        "LLM 基础设施供应商",
-        "竞争对手产品团队"
+        "自托管基础设施维护者",
+        "注重数据主权的企业与开发团队",
+        "边缘计算与私有云用户"
       ],
       "next_actions": [
-        "研读 LinkedIn Cognitive Memory Agent 的开源代码或技术博客",
-        "对照 DoorDash 实践评估自有推荐系统的 LLM 改造方案",
-        "关注 InfoQ 后续技术深度报道"
+        "评估 Forgejo v15 迁移自 Gitea 的复杂度",
+        "测试 Stalwart v0.16 在高并发场景下的稳定性",
+        "关注 Narwhal 在边缘消息场景的成熟度"
       ],
       "risk_notes": [
-        "规模化 LLM 推理成本居高不下，需精细化成本管控",
-        "用户记忆数据的隐私保护需符合 GDPR/CCPA 要求"
+        "版本升级可能引入兼容性问题",
+        "小众开源项目社区支持力度有限"
       ],
       "references": [
-        "Designing Memory for AI Agents: Inside Linkedin's Cognitive Memory Agent (InfoQ)",
-        "Presentation: Dynamic Moments: Weaving LLMs into Deep Personalization at DoorDash (InfoQ)"
+        "https://lobste.rs/s/forgejo-v15",
+        "https://lobste.rs/s/stalwart-v016"
       ]
     }
   ]
