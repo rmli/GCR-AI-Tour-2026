@@ -1,15 +1,13 @@
 {
-  "mode": "llm",
-  "top_k": 5,
   "hotspots": [
     {
       "hotspot_id": "H01",
-      "title": "Apple CEO交接：Tim Cook卸任，John Ternus接任",
-      "summary": "苹果宣布CEO Tim Cook正式卸任，产品负责人John Ternus接任CEO。此消息在科技媒体引发广泛报道，外界关注苹果产品战略走向及其与特朗普政府的关系维系。",
+      "title": "Apple CEO 交班：Tim Cook 卸任，John Ternus 接任",
+      "summary": "Tim Cook 宣布卸任 Apple CEO，产品工程主管 John Ternus 接任，引发各方对 Apple 下一阶段战略的广泛讨论。",
       "category": "trend",
-      "overall_heat_score": 98,
+      "overall_heat_score": 95,
       "coverage": {
-        "source_count": 6,
+        "source_count": 4,
         "companies": [
           "Apple"
         ],
@@ -17,302 +15,491 @@
           "techcrunch",
           "theverge",
           "wired",
-          "arstechnica",
-          "hackernews",
-          "mit-technology-review"
+          "arstechnica"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "全球第一大市值公司CEO更迭，直接影响苹果产品、AI战略与政策博弈",
-        "John Ternus以产品为核心，意味着苹果AI与硬件路线图可能调整",
-        "Tim Cook仍担任'特朗普沟通人'角色，政企关系格局延续"
+        "科技巨头领导层更迭，影响 Apple 未来产品路线与股价",
+        "Ternus 以硬件工程见长，AI 战略走向存在不确定性"
       ],
       "samples": [
         {
           "platform": "techcrunch",
-          "title": "Tim Cook stepping down as Apple CEO, John Ternus taking over",
-          "url": "https://techcrunch.com",
-          "published_at": "2026-04-20T00:00:00Z",
+          "title": "Tim Cook is stepping down as CEO of Apple",
+          "url": "https://techcrunch.com/2026/04/21/tim-cook-stepping-down-apple-ceo/",
+          "published_at": "2026-04-21T21:09:09Z",
           "company": "Apple",
           "signal_level": "A"
         },
         {
-          "platform": "wired",
-          "title": "Apple CEO Tim Cook Is Stepping Down",
-          "url": "https://wired.com",
-          "published_at": "2026-04-20T00:00:00Z",
+          "platform": "techcrunch",
+          "title": "Apple's John Ternus will run one of the world's most powerful companies; the job is a minefield",
+          "url": "https://techcrunch.com/2026/04/21/apple-john-ternus-ceo/",
+          "published_at": "2026-04-21T20:23:24Z",
           "company": "Apple",
-          "signal_level": "B"
-        },
-        {
-          "platform": "arstechnica",
-          "title": "John Ternus will replace Tim Cook as Apple CEO",
-          "url": "https://arstechnica.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Apple",
-          "signal_level": "B"
+          "signal_level": "A"
         },
         {
           "platform": "theverge",
-          "title": "Apple will have a product guy as CEO again",
-          "url": "https://theverge.com",
-          "published_at": "2026-04-21T00:00:00Z",
+          "title": "Tim Cook was an innovator — just not the Jobs kind",
+          "url": "https://www.theverge.com/2026/04/21/tim-cook-legacy",
+          "published_at": "2026-04-21T19:15:00Z",
           "company": "Apple",
           "signal_level": "B"
-        },
-        {
-          "platform": "hackernews",
-          "title": "John Ternus to become Apple CEO",
-          "url": "https://news.ycombinator.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Apple",
-          "signal_level": "A"
         }
       ]
     },
     {
       "hotspot_id": "H02",
-      "title": "AI Agent生态大爆发：Cloudflare、OpenAI Codex、Gemini CLI齐发力",
-      "summary": "Cloudflare完成Agents Week 2026，发布其AI工程栈与AI代码审查编排框架；OpenAI将Codex扩展至全球企业；Gemini CLI推出子智能体并行任务架构；LinkedIn披露认知记忆智能体设计；Adobe与NVIDIA联合发布创意AI智能体。",
+      "title": "SpaceX 拟以 600 亿美元收购 Cursor AI 编程助手",
+      "summary": "SpaceX 正与 Cursor 开发商 Anysphere 谈判，拟以 600 亿美元收购，SpaceX 同时持有收购期权，引发 AI 编程工具市场震动。",
       "category": "trend",
-      "overall_heat_score": 94,
+      "overall_heat_score": 90,
       "coverage": {
-        "source_count": 7,
+        "source_count": 3,
         "companies": [
-          "Cloudflare",
-          "OpenAI",
-          "Google",
-          "LinkedIn",
-          "Adobe",
-          "NVIDIA"
+          "SpaceX"
         ],
         "platforms": [
-          "cloudflare",
-          "openai",
-          "infoq",
-          "nvidia",
-          "huggingface",
           "techcrunch",
-          "producthunt"
+          "hackernews",
+          "theverge"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "多家顶级厂商同期密集发布Agentic平台能力，标志着AI工程范式进入多智能体协作阶段",
-        "Cloudflare Project Think提供持久化运行时，解决AI智能体状态管理痛点",
-        "Codex企业化意味着代码生成进入规模化落地阶段"
+        "史上最大 AI 编程工具收购案",
+        "将改变 AI 辅助开发工具格局"
       ],
       "samples": [
         {
-          "platform": "cloudflare",
-          "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
-          "url": "https://blog.cloudflare.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Cloudflare",
+          "platform": "techcrunch",
+          "title": "SpaceX is working with Cursor and has an option to buy the startup for $60 billion",
+          "url": "https://techcrunch.com/2026/04/21/spacex-cursor-60-billion/",
+          "published_at": "2026-04-21T22:58:22Z",
+          "company": null,
           "signal_level": "A"
         },
         {
-          "platform": "openai",
-          "title": "Scaling Codex to enterprises worldwide",
-          "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-          "published_at": "2026-04-21T00:00:00Z",
-          "company": "OpenAI",
-          "signal_level": "S"
-        },
-        {
-          "platform": "infoq",
-          "title": "Subagents in Gemini CLI Enable Task Delegation and Parallel Agent Workflows",
-          "url": "https://infoq.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Google",
-          "signal_level": "B"
-        },
-        {
-          "platform": "infoq",
-          "title": "Designing Memory for AI Agents: Inside Linkedin's Cognitive Memory Agent",
-          "url": "https://infoq.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "LinkedIn",
-          "signal_level": "B"
-        },
-        {
-          "platform": "nvidia",
-          "title": "Autonomous AI at Scale: Adobe Agents Unlock Breakthrough Creative Intelligence With NVIDIA and WPP",
-          "url": "https://blogs.nvidia.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "NVIDIA",
+          "platform": "hackernews",
+          "title": "SpaceX says it has agreement to acquire Cursor for $60B",
+          "url": "https://news.ycombinator.com/item?id=43762841",
+          "published_at": "2026-04-21T22:13:18Z",
+          "company": null,
           "signal_level": "A"
+        },
+        {
+          "platform": "theverge",
+          "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
+          "url": "https://www.theverge.com/2026/04/21/spacex-cursor-deal",
+          "published_at": "2026-04-21T22:45:37Z",
+          "company": null,
+          "signal_level": "B"
         }
       ]
     },
     {
       "hotspot_id": "H03",
-      "title": "Anthropic：Amazon $5B投资 + 美国国家安全局部署Mythos",
-      "summary": "Anthropic从Amazon获得50亿美元融资并承诺1000亿云消费；与此同时，美国国家安全局被曝部署Anthropic的Mythos模型用于网络安全，引发安全研究界对AI武器化的担忧。Anthropic同期解除对OpenClaw风格Claude CLI的使用限制。",
+      "title": "ChatGPT Images 2.0 发布：支持 Web 搜索与更强文字生成",
+      "summary": "OpenAI 发布 ChatGPT Images 2.0，新模型能够从 Web 拉取信息并在生成图片中呈现文字，图文融合能力大幅提升。",
       "category": "trend",
-      "overall_heat_score": 90,
+      "overall_heat_score": 88,
       "coverage": {
         "source_count": 4,
         "companies": [
-          "Anthropic",
-          "Amazon"
+          "OpenAI"
         ],
         "platforms": [
           "techcrunch",
-          "arstechnica",
           "hackernews",
-          "aws-news"
+          "theverge",
+          "wired"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "史上最大AI单笔融资，进一步确立Anthropic与AWS的深度绑定关系",
-        "NSA使用Mythos披露AI被政府情报机构规模化采用，监管框架滞后风险上升",
-        "Claude CLI政策松绑可能带来开源社区新一轮生态工具爆发"
+        "多模态生成能力升级，影响设计、营销等众多场景",
+        "与 Gemini、Midjourney 竞争格局进一步加剧"
       ],
       "samples": [
         {
           "platform": "techcrunch",
-          "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
-          "url": "https://techcrunch.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Anthropic",
+          "title": "ChatGPT's new Images 2.0 model is surprisingly good at generating text",
+          "url": "https://techcrunch.com/2026/04/21/chatgpt-images-2-0/",
+          "published_at": "2026-04-21T19:00:00Z",
+          "company": "OpenAI",
           "signal_level": "A"
         },
         {
-          "platform": "techcrunch",
-          "title": "NSA spies are reportedly using Anthropic's Mythos, despite Pentagon feud",
-          "url": "https://techcrunch.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Anthropic",
-          "signal_level": "A"
+          "platform": "theverge",
+          "title": "OpenAI's updated image generator can now pull information from the web",
+          "url": "https://www.theverge.com/2026/04/21/openai-images-2-web",
+          "published_at": "2026-04-21T19:00:00Z",
+          "company": "OpenAI",
+          "signal_level": "B"
         },
         {
-          "platform": "arstechnica",
-          "title": "Anthropic's Mythos AI model sparks fears of turbocharged hacking",
-          "url": "https://arstechnica.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Anthropic",
+          "platform": "wired",
+          "title": "OpenAI Beefs Up ChatGPT's Image Generation Model",
+          "url": "https://www.wired.com/story/openai-chatgpt-images-2-0/",
+          "published_at": "2026-04-21T19:00:00Z",
+          "company": "OpenAI",
           "signal_level": "B"
         },
         {
           "platform": "hackernews",
-          "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
-          "url": "https://news.ycombinator.com",
-          "published_at": "2026-04-21T00:00:00Z",
-          "company": "Anthropic",
+          "title": "ChatGPT Images 2.0",
+          "url": "https://news.ycombinator.com/item?id=43762544",
+          "published_at": "2026-04-21T18:50:00Z",
+          "company": "OpenAI",
           "signal_level": "A"
         }
       ]
     },
     {
       "hotspot_id": "H04",
-      "title": "AI生成内容泛滥：44%音乐上传为AI作品，Vercel遭黑客利用AI工具攻击",
-      "summary": "Deezer披露其平台每日新上传歌曲中44%为AI生成且大多数流量疑为欺诈；同一时段，一个Roblox外挂结合AI工具引发Vercel平台宕机，Vercel随后确认遭黑客入侵并导致客户数据泄露。AI滥用已从内容生产渗透到基础设施安全。",
+      "title": "Anthropic Mythos AI 安全模型遭非授权访问，Sam Altman 批评为「恐惧营销」",
+      "summary": "Anthropic 专属网络安全 AI 工具 Mythos 被未经授权的团体访问，Mozilla 同时披露 Mythos 已发现 Firefox 271 个漏洞；OpenAI CEO Altman 随即发推批评。",
       "category": "trend",
       "overall_heat_score": 85,
       "coverage": {
-        "source_count": 4,
+        "source_count": 5,
         "companies": [
-          "Deezer",
-          "Vercel"
+          "Anthropic",
+          "OpenAI",
+          "Mozilla"
         ],
         "platforms": [
           "techcrunch",
+          "devto",
           "arstechnica",
-          "hackernews",
-          "infoq"
+          "wired",
+          "hackernews"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "AI内容与欺诈流量的规模化爆发，倒逼平台治理机制",
-        "AI工具被用于基础设施攻击是新型威胁向量，值得安全团队高度关注",
-        "GitHub基础设施近期扩展挑战与Vercel事件形成呼应"
+        "AI 安全工具本身出现安全事件，深层矛盾值得关注",
+        "Mozilla 实测验证 Mythos 能力，但引发 AI 武器化讨论"
       ],
       "samples": [
         {
           "platform": "techcrunch",
-          "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
-          "url": "https://techcrunch.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Deezer",
+          "title": "Unauthorized group has gained access to Anthropic's exclusive cyber tool Mythos, report claims",
+          "url": "https://techcrunch.com/2026/04/21/anthropic-mythos-unauthorized-access/",
+          "published_at": "2026-04-21T23:26:45Z",
+          "company": "Anthropic",
           "signal_level": "A"
         },
         {
           "platform": "arstechnica",
-          "title": "Deezer says 44% of new music uploads are AI-generated, most streams are fraudulent",
-          "url": "https://arstechnica.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Deezer",
+          "title": "Mozilla: Anthropic's Mythos found 271 security vulnerabilities in Firefox 150",
+          "url": "https://arstechnica.com/2026/04/mozilla-mythos-firefox-271-bugs/",
+          "published_at": "2026-04-21T21:40:41Z",
+          "company": "Anthropic",
           "signal_level": "B"
         },
         {
-          "platform": "hackernews",
-          "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
-          "url": "https://news.ycombinator.com",
-          "published_at": "2026-04-21T00:00:00Z",
-          "company": "Vercel",
-          "signal_level": "A"
-        },
-        {
           "platform": "techcrunch",
-          "title": "App host Vercel says it was hacked and customer data stolen",
-          "url": "https://techcrunch.com",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Vercel",
+          "title": "Sam Altman throws shade at Anthropic's cyber model, Mythos: 'fear-based marketing'",
+          "url": "https://techcrunch.com/2026/04/21/altman-mythos-fear-marketing/",
+          "published_at": "2026-04-21T18:51:52Z",
+          "company": "OpenAI",
           "signal_level": "A"
         }
       ]
     },
     {
       "hotspot_id": "H05",
-      "title": "GitHub Copilot个人计划调整 & Git 2.54 正式发布",
-      "summary": "GitHub宣布Copilot个人订阅计划变更，同期Git 2.54发布并带来多项性能与工作流改进。配合AWS Weekly Roundup披露Amazon Bedrock已上线Claude Opus 4.7，开发者工具链本周进入密集更新期。",
-      "category": "single",
-      "overall_heat_score": 82,
+      "title": "Meta 计划监控员工键鼠操作以训练 AI Agent",
+      "summary": "Meta 将在员工设备上采集鼠标移动、键盘击键数据，用于训练 AI 智能体，引发隐私与劳动权利争议。",
+      "category": "trend",
+      "overall_heat_score": 80,
       "coverage": {
         "source_count": 3,
         "companies": [
-          "GitHub",
+          "Meta"
+        ],
+        "platforms": [
+          "techcrunch",
+          "hackernews",
+          "arstechnica"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "员工数据采集用于 AI 训练引发隐私红线讨论",
+        "企业 AI 数据策略的新范式，可能引发监管关注"
+      ],
+      "samples": [
+        {
+          "platform": "techcrunch",
+          "title": "Meta will record employees' keystrokes and use it to train its AI models",
+          "url": "https://techcrunch.com/2026/04/21/meta-keystrokes-ai-training/",
+          "published_at": "2026-04-21T23:45:21Z",
+          "company": "Meta",
+          "signal_level": "A"
+        },
+        {
+          "platform": "hackernews",
+          "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+          "url": "https://news.ycombinator.com/item?id=43762001",
+          "published_at": "2026-04-21T17:40:39Z",
+          "company": "Meta",
+          "signal_level": "A"
+        },
+        {
+          "platform": "arstechnica",
+          "title": "Report: Meta will train AI agents by tracking employees' mouse, keyboard use",
+          "url": "https://arstechnica.com/2026/04/meta-employee-mouse-keyboard-ai/",
+          "published_at": "2026-04-21T19:30:52Z",
+          "company": "Meta",
+          "signal_level": "B"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H06",
+      "title": "Framework Laptop 13 Pro 发布：可拆卸升级旗舰面向 Linux 用户",
+      "summary": "Framework 发布 Laptop 13 Pro（Intel Core Ultra 3 + LPCAMM2），定位为「Linux 用户的 MacBook Pro」，并推出首款 eGPU 方案，强调模块化可升级设计。",
+      "category": "trend",
+      "overall_heat_score": 78,
+      "coverage": {
+        "source_count": 5,
+        "companies": [],
+        "platforms": [
+          "theverge",
+          "arstechnica",
+          "wired",
+          "hackernews",
+          "lobsters"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "模块化笔记本新品引发 Linux 开发者社区高度关注",
+        "LPCAMM2 内存与 eGPU 方案对开发者工作站市场有参考意义"
+      ],
+      "samples": [
+        {
+          "platform": "theverge",
+          "title": "Framework announces Laptop 13 Pro, 'the MacBook Pro for Linux users'",
+          "url": "https://www.theverge.com/2026/04/21/framework-laptop-13-pro",
+          "published_at": "2026-04-21T18:08:00Z",
+          "company": null,
+          "signal_level": "B"
+        },
+        {
+          "platform": "arstechnica",
+          "title": "Framework Laptop 13 Pro is a major overhaul for the modular, upgradeable laptop",
+          "url": "https://arstechnica.com/2026/04/framework-laptop-13-pro-review/",
+          "published_at": "2026-04-21T18:15:15Z",
+          "company": null,
+          "signal_level": "B"
+        },
+        {
+          "platform": "wired",
+          "title": "Framework Has a Better, More Take-Apartable Laptop",
+          "url": "https://www.wired.com/story/framework-laptop-13-pro/",
+          "published_at": "2026-04-21T19:09:11Z",
+          "company": null,
+          "signal_level": "B"
+        },
+        {
+          "platform": "hackernews",
+          "title": "Framework Laptop 13 Pro",
+          "url": "https://news.ycombinator.com/item?id=43761712",
+          "published_at": "2026-04-21T18:00:34Z",
+          "company": null,
+          "signal_level": "A"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H07",
+      "title": "TypeScript 7.0 Beta 发布",
+      "summary": "TypeScript 7.0 Beta 正式发布，带来重大语言特性与性能改进，引起前端与全栈开发社区广泛关注。",
+      "category": "single",
+      "overall_heat_score": 75,
+      "coverage": {
+        "source_count": 1,
+        "companies": [
+          "Microsoft"
+        ],
+        "platforms": [
+          "lobsters"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "TypeScript 主版本更新，影响全球数百万 JS/TS 开发者"
+      ],
+      "samples": [
+        {
+          "platform": "lobsters",
+          "title": "Announcing TypeScript 7.0 Beta",
+          "url": "https://lobste.rs/s/typescript-7-beta",
+          "published_at": "2026-04-21T20:18:32Z",
+          "company": "Microsoft",
+          "signal_level": "B"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H08",
+      "title": "Anthropic 获 Amazon 50 亿美元投资，将采购 Amazon 芯片",
+      "summary": "Amazon 向 Anthropic 追加 50 亿美元投资，Anthropic 将用于购买 Amazon 自研芯片（Trainium/Inferentia），强化双方生态绑定。",
+      "category": "single",
+      "overall_heat_score": 72,
+      "coverage": {
+        "source_count": 1,
+        "companies": [
+          "Anthropic",
           "Amazon"
         ],
         "platforms": [
-          "github-blog",
-          "aws-news",
+          "arstechnica"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "AI 算力投资与芯片生态绑定加速，影响 AI 基础设施格局"
+      ],
+      "samples": [
+        {
+          "platform": "arstechnica",
+          "title": "Anthropic gets $5B investment from Amazon, will use it to buy Amazon chips",
+          "url": "https://arstechnica.com/2026/04/anthropic-amazon-5b-investment-chips/",
+          "published_at": "2026-04-21T17:00:04Z",
+          "company": "Anthropic",
+          "signal_level": "B"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H09",
+      "title": "Cloudflare Project Think：面向 AI Agent 的持久化运行时",
+      "summary": "Cloudflare 发布 Project Think，提供可持久跨请求的 AI Agent 运行时，为无服务器 Agent 编排提供新基础设施方案。",
+      "category": "single",
+      "overall_heat_score": 68,
+      "coverage": {
+        "source_count": 2,
+        "companies": [
+          "Cloudflare"
+        ],
+        "platforms": [
+          "infoq",
+          "cloudflare"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "AI Agent 基础设施赛道新动向，Cloudflare 边缘计算切入 Agent 编排"
+      ],
+      "samples": [
+        {
+          "platform": "infoq",
+          "title": "Cloudflare Introduces Project Think: A Durable Runtime for AI Agents",
+          "url": "https://www.infoq.com/news/2026/04/cloudflare-project-think/",
+          "published_at": "2026-04-21T02:34:00Z",
+          "company": "Cloudflare",
+          "signal_level": "B"
+        },
+        {
+          "platform": "cloudflare",
+          "title": "Moving past bots vs. humans",
+          "url": "https://blog.cloudflare.com/moving-past-bots-vs-humans/",
+          "published_at": "2026-04-21T13:00:00Z",
+          "company": "Cloudflare",
+          "signal_level": "A"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H10",
+      "title": "GitHub 公开承认近期服务中断，暴露扩展性与架构短板",
+      "summary": "GitHub 官方在 InfoQ 文章中承认近期多次服务中断，坦承存在扩展性挑战和架构弱点，并披露改进计划。",
+      "category": "single",
+      "overall_heat_score": 65,
+      "coverage": {
+        "source_count": 1,
+        "companies": [
+          "GitHub"
+        ],
+        "platforms": [
           "infoq"
         ]
       },
       "should_chase": "yes",
       "chase_rationale": [
-        "GitHub Copilot计划调整直接影响数百万个人开发者的使用成本与权益",
-        "Git 2.54是面向全球最广泛版本控制工具的官方更新，性能提升影响每日工作流",
-        "Claude Opus 4.7在Bedrock上线标志着企业级AI能力升级"
+        "全球最大代码平台基础设施问题对开发者工作流影响深远"
       ],
       "samples": [
         {
-          "platform": "github-blog",
-          "title": "Changes to GitHub Copilot Individual plans",
-          "url": "https://github.blog",
-          "published_at": "2026-04-20T00:00:00Z",
+          "platform": "infoq",
+          "title": "GitHub Acknowledges Recent Outages, Cites Scaling Challenges and Architectural Weaknesses",
+          "url": "https://www.infoq.com/news/2026/04/github-outages-scaling/",
+          "published_at": "2026-04-21T12:00:00Z",
           "company": "GitHub",
-          "signal_level": "S"
-        },
+          "signal_level": "B"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H11",
+      "title": "pnpm 11 RC：ESM 分发、供应链安全默认配置与新存储格式",
+      "summary": "pnpm 11 发布候选版，带来 ESM 原生分发、供应链安全默认加固和全新包存储格式，前端工程链迎来重要升级。",
+      "category": "single",
+      "overall_heat_score": 62,
+      "coverage": {
+        "source_count": 1,
+        "companies": [],
+        "platforms": [
+          "infoq"
+        ]
+      },
+      "should_chase": "no",
+      "chase_rationale": [
+        "包管理器迭代，需关注 ESM 兼容性与供应链安全改进"
+      ],
+      "samples": [
         {
-          "platform": "github-blog",
-          "title": "Highlights from Git 2.54",
-          "url": "https://github.blog",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "GitHub",
-          "signal_level": "S"
-        },
+          "platform": "infoq",
+          "title": "pnpm 11 Release Candidate: ESM Distribution, Supply Chain Defaults and a New Store Format",
+          "url": "https://www.infoq.com/news/2026/04/pnpm-11-rc/",
+          "published_at": "2026-04-21T16:00:00Z",
+          "company": null,
+          "signal_level": "B"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H12",
+      "title": "Hugging Face QIMMA：首个质量优先的阿拉伯语 LLM 排行榜",
+      "summary": "Hugging Face 发布 QIMMA 阿拉伯语 LLM 排行榜，采用质量优先方法评估模型，填补非英语 LLM 评测空白。",
+      "category": "single",
+      "overall_heat_score": 58,
+      "coverage": {
+        "source_count": 1,
+        "companies": [
+          "Hugging Face"
+        ],
+        "platforms": [
+          "huggingface"
+        ]
+      },
+      "should_chase": "no",
+      "chase_rationale": [
+        "非英语 LLM 评测基础设施完善，有助于全球化 AI 发展"
+      ],
+      "samples": [
         {
-          "platform": "aws-news",
-          "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
-          "url": "https://aws.amazon.com/blogs/aws",
-          "published_at": "2026-04-20T00:00:00Z",
-          "company": "Amazon",
+          "platform": "huggingface",
+          "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+          "url": "https://huggingface.co/blog/qimma-arabic-llm-leaderboard",
+          "published_at": "2026-04-21T10:09:58Z",
+          "company": "Hugging Face",
           "signal_level": "A"
         }
       ]
